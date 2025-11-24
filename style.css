@@ -1,0 +1,188 @@
+header{
+    width: 1440px;
+    height: 156px;
+    box-shadow: 0px 5px 5px darkgray;
+    display: flex;
+    align-items: center;
+}
+.header__logo1{
+    position: absolute;
+    left: 106px;
+}
+.header__logo2{
+    position: absolute;
+    left: 452px;
+}
+.header__text1{
+    position: absolute;
+    left: 497px;
+    color: darkgray;
+    font-size: 20px;
+}
+.header__text1:hover{
+    color: orangered;
+}
+.header__logo3{
+    position: absolute;
+    left: 630px;
+}
+.header__logo4{
+    position: absolute;
+    left: 816px;
+}
+.header__text2{
+    position: absolute;
+    left: 675px;
+    color: darkgray;
+    font-size: 20px;
+}
+.header__text2:hover{
+    color: orangered;
+}
+.header__text3{
+    position: absolute;
+    left: 857px;
+    font-size: 20px;
+    color: orangered;
+}
+.header__btn{
+    width: 219px;
+    height: 63px;
+    border: 3px orangered solid;
+    border-radius: 20px;
+    background-color: white;
+    color: orangered;
+    position: absolute;
+    left: 1007px;
+}
+.header__btn:hover{
+    background-color: darkgray;
+}
+.header__logo5{
+    position: absolute;
+    left: 1277px;
+}
+main{
+    width: 1440px;
+    position: relative;
+    height: 165vh;
+}
+.main__logo1{
+    position: absolute;
+    left: 106px;
+    top: 67px;
+}
+.main__text1{
+    color: darkblue;
+    position: absolute;
+    left: 182px;
+    top: 45px;
+    font-size: 40px;
+}
+.main__input{
+    position: absolute;
+    left: 444px;
+    top: 60px;
+    background-color: black;
+    color: aliceblue;
+    width: 386px;
+    height: 63px;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+}
+.main__btn1{
+    background-color: darkblue;
+    width: 116px;
+    height: 63px;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    left: 852px;
+    top: 60px;
+    font-size: 25px;
+}
+.main__btn1:hover{
+    background-color: darkgray;
+}
+.main__logo2{
+    position: absolute;
+    left: 1068px;
+    top: 70px;
+}
+.main__text2{
+    position: absolute;
+    left: 1125px;
+    top: 54px;
+    font-size: 30px;
+    color: orangered;
+}
+.main__ota{
+    position: absolute;
+    top: 240px;
+    left: 97px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.main__box{
+    width: 290px;
+    height: 290px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.main__logo3{
+    width: 184px;
+    height: 118px;
+}
+.main__text3{
+    position: absolute;
+    top: 120px;
+}
+.main__logo4{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+.main__text4{
+    position: absolute;
+    left: 130px;
+    top: 163px;
+}
+.main__text4:hover{
+    color: darkgray;
+}
+.main__text5{
+    position: absolute;
+    top: 225px;
+    color: darkgray;
+}
+.main__text5:active{
+    color: orangered;
+}
+footer{
+    width: 1440px;
+    height: 65px;
+    box-shadow: 0px -5px 5px darkgrey;
+    display: flex;
+    align-items: center;
+}
+.footer__text1{
+    position: absolute;
+    left: 101px;
+    font-weight: 100;
+}
+.footer__logo1{
+    margin: auto;
+    width: 118px;
+    height: 32px;
+}
+.footer__sayt{
+    position: absolute;
+    right: 99px;
+}
